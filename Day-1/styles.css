@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    margin: 0;
+}
+.para{
+    margin: 0;
+}
+
+#double-wrap{
+    margin-top: 60px;
+    margin: 0 18%;
+    box-shadow: 1px 1px 15px #012290f7;
+   
+}
+#personal-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.role{
+    display: flex;justify-content: space-between;
+}
+
+.line{
+margin: 0;
+border: 1px solid black;
+}
+#profile-summary{
+    margin: 10px 0;
+}
+ul{
+    margin: 0;
+    margin-bottom: 8px;
+}
+#wrapper{
+    padding: 50px 10px;
+}
