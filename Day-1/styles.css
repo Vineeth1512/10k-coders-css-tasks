@@ -1,17 +1,21 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    /* background: linear-gradient(135deg, #f69e5b, rgb(241, 232, 126) ); */
+    background-color: black;
+    color: #fff
 }
 h2{
     margin: 0;
 }
 .para{
     margin: 0;
+    color: rebeccapurple;
 }
 
 #double-wrap{
     margin-top: 60px;
     margin: 0 18%;
-    box-shadow: 1px 1px 15px #012290f7;
+    box-shadow: 1px 1px 20px #012290f7;
    
 }
 #personal-information{
@@ -26,7 +30,7 @@ h2{
 
 .line{
 margin: 0;
-border: 1px solid black;
+border: 1px solid #fff;
 }
 #profile-summary{
     margin: 10px 0;
