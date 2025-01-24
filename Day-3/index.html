@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-3-Css</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            background: #fff;
+            padding: 20px 0;
+            box-shadow: 0px 2px 6px gray;
+            position: fixed;
+            width: 100%;
+        }
+
+        nav {
+            display: inline;
+        }
+
+        .nav-right {
+            margin-left: 60%
+        }
+
+        nav a {
+            margin: 3px 5px;
+            text-decoration: none;
+            padding: 8px;
+            font-size: 16px;
+            color: rgb(73, 70, 70);
+        }
+
+        nav a:hover {
+            cursor: pointer;
+            background: gainsboro;
+        }
+
+        .image-wrap {
+            width: 100%;
+            height: 600px;
+            background-image: url('https://www.w3schools.com/w3images/hamburger.jpg');
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Gourmet au Catering</a>
+        </nav>
+        <nav class="nav-right">
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="image-wrap">
+
+        Le Catering
+    </div>
+
+
+    <div class="about-wrapper">
+        <div class="about-left">
+            <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="">
+        </div>
+        <div class="about-right">
+            <!-- <div class="about-container"> -->
+            <h1>About Catering</h1>
+            <br>
+            <h5>Tradition since 1889</h5>
+            <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur
+                adipiscing
+                elit
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut
+                enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis
+                aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.We
+                only
+                use seasonal ingredients.</p>
+            <br>
+            <p>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+
+
+            </p>
+            <!-- </div> -->
+        </div>
+    </div>
+    <hr style="margin: 0 100px;">
+
+    <!-- <div class="about-wrapper">
+        <div class="about-right">
+            <h1>Our Menu</h1>
+            <br>
+            <br>
+            <h4>Bread Basket</h4>
+            <br>
+            
+            <br>
+            <h4>Honey Almond Granola with Fruits</h4>
+            <br>
+            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <br>
+
+        </div>
+        <div class="about-left">
+            <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="">
+        </div>
+    </div> -->
+
+    <div class="card-container">
+        <div class="card">
+            <img src="images/bread-basket.jpeg" alt="">
+            <div class="card-content">
+                <h4>Bread Basket</h4>
+                <p>Bannetons and other proofing baskets are used to hold shaped bread
+                    dough as it rises. They help the dough maintain its shape, which is particularly helpful if it's a
+                    wet, high-hydration dough that, without the support of the basket, might otherwise flatten into a
+                    pancake.</p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="images/honey.jpeg" alt="">
+            <div class="card-content">
+                <h4>Honey Almond with Fruits</h4>
+                <p>This is a crunchy, cereal-like granola basically made for eating by the handful. Other ideas for
+                    using this honey almond granola: Sprinkle on morning yogurt or smoothie bowl. Cut a banana into
+                    slices, spread with nut butter or Nutella (omg), and sprinkle with granola.</p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="images/Belgain.jpg" alt="">
+            <div class="card-content">
+                <h4>Belgian Waffle</h4>
+                <p>While regular old waffles are made from a typical pancake-like batter, Belgian waffles are made from
+                    a brioche dough. The secret ingredient in Belgian waffles is the pearl sugar, which gives the
+                    waffles a unique texture and slight, satisfying crunch..</p>
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <img src="images/egg.jpeg" alt="">
+            <div class="card-content">
+                <h4>Scrambled Eggs</h4>
+                <p>The most basic way to make scrambled eggs is to whisk eggs in a bowl with a fork or whisk, add salt
+                    and pepper to taste, and then cook in a non-stick pan over low heat, stirring frequently until the
+                    eggs are set but still creamy cook in a non-stick pan over low heat.</p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="card">
+            <img src="images/blueberry.jpeg" alt="">
+            <div class="card-content">
+                <h4>Blueberry Pancakes</h4>
+                <p>It's best to add the blueberries to pancakes right after you pour the batter onto the hot pan. Simply
+                    place as many blueberries into the wet batter of each pancake as you like. Any size blueberries will
+                    work, but use smaller blueberries to help the pancakes cook more evenly.</p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="images/bread-basket.jpeg" alt="">
+            <div class="card-content">
+                <h4>Bread Basket</h4>
+                <p>Bannetons and other proofing baskets are used to hold shaped bread
+                    dough as it rises. They help the dough maintain its shape, which is particularly helpful if it's a
+                    wet, high-hydration dough that, without the support of the basket, might otherwise flatten into a
+                    pancake.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p style="text-align: center;">Developed By Vineeth</p>
+    </footer>
+
+</body>
+
+</html>
