@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 200px;
+
+        }
+
+        div {
+            margin: 100px;
+            padding: 60px;
+            border: 2px solid green;
+            position: relative;
+            width: 700px;
+            height: 90vh;
+        }
+
+        #img1 {
+            position: absolute;
+            top: -80px;
+            left: -80px;
+            z-index: -1;
+        }
+
+        #img2 {
+            position: absolute;
+            top: -80px;
+            right: -80px;
+
+            z-index: -1;
+        }
+
+        #img3 {
+            position: absolute;
+            bottom: -80px;
+            left: -80px;
+        }
+
+        #img4 {
+            position: absolute;
+            bottom: -80px;
+            right: -80px;
+        }
+
+
+
+        /* h1 {
+            background: rebeccapurple;
+        } */
+
+        /* h1:hover+img {
+            display: block;
+            cursor: pointer;
+            background: red;
+        } */
+    </style>
+</head>
+
+<body>
+
+
+    <div>
+
+
+        <img id="img1" src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="">
+
+        <img id="img2" src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="">
+
+        <img id="img3" src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="">
+
+        <img id="img4" src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="">
+    </div>
+
+</body>
+
+</html>
