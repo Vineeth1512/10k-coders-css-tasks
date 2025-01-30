@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Barlow+Condensed:wght@600&family=Caveat+Brush&family=Dancing+Script:wght@400..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Londrina+Shadow&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+Mongolian&family=Noto+Serif+Hentaigana:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Playball&family=Playwrite+IN:wght@100..400&family=Poppins:wght@600&family=Raleway:ital,wght@0,200;0,400;1,200&family=Roboto:wght@300;400;500;700;900&family=Rubik+Doodle+Shadow&family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.head-div {
+    margin: 3% 10%;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 5px #a5bfcc ;
+    border-radius: 5px;
+    text-shadow: 2px 3px 3px #5da8cd;
+    color: #3e5879;
+}
+
+.head-div:hover {
+    text-shadow: 2px 3px 3px #0a4968;
+}
+.shadow {
+    text-shadow: 2px 3px 3px #0a4968;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.box {
+    width: 20%;
+    height: 50vh;
+    box-shadow: 2px 2px 5px 3px #737477, 4px 4px 5px 3px #3a57af;
+    border-radius: 20px;
+    position: relative;
+    transition: 1s;
+}
+
+.text {
+    display: block;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    top: 48%;
+    transition: 0.5s;
+}
+
+.box:hover {
+    font-size: 40px;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+
+:root{
+    --first:#e5d9f2;
+    --second:#e3f0af;
+    --third:#Fcc6ff;
+    --fouth:#780c28;
+    --fifth:#6e8e59;
+    --six:#B2a5ff;
+    --seven:#aeea94;
+    --eight:#818c78;
+    --nine:#aab99a;
+    --ten:#deff8b;
+    --elven:#c8aaaa;
+    --twen:#fce2db
+}
+#one {
+    background-color:var(--first) ;
+}
+
+#two {
+    background-color: var(--second)
+}
+
+#three {
+    background-color: var(--third);
+}
+
+#four {
+    background-color:  var(--fouth);
+}
+#five{
+    background-color: var(--fifth);
+}
+#six{
+    background-color: var(--six);
+}
+#seven{
+    background-color: var(--seven);
+}
+#eight{
+    background-color: var(--eight);
+}
+#nine{
+    background-color: var(--nine);
+}
+#ten{
+    background-color: var(--ten);
+}
+#elven{
+    background-color: var(--elven);
+}
+#twen{
+    background-color: var(--twen)
+}
+
+#one:hover {
+   
+    font-family: "Caveat Brush", serif;
+   font-weight: 400;
+   font-style: normal;
+   background-color: var(--eight);
+   
+
+}
+
+#two:hover{
+
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--elven);
+}
+#three:hover{
+
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  background-color: var(--ten);
+}
+
+#five:hover{
+
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  background-color: var(--ten);
+}
+
+#four:hover{
+
+font-family: "Noto Sans Mongolian", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--ten);
+}
+
+#six:hover{
+    font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: var(--first);
+}
+#seven:hover{
+    font-family: "Noto Serif Hentaigana", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: var(--third);
+}
+#eight:hover{
+    font-family: "Playball", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--twen);
+}
+
+
+#nine:hover{
+    font-family: "Londrina Shadow", serif;
+    font-weight: 400;
+    font-style: normal; 
+    background-color: var(--elven);
+}
+#ten:hover{
+    font-family: "Lobster Two", serif;
+  font-weight: 700;
+  font-style: italic;
+  background-color: var(--six);
+}
+#elven:hover{
+    font-family: 'Courier New', Courier, monospace;
+
+    background-color: var(--third);
+}
+#twen:hover{
+    font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--fifth);
+}
+
+
+footer{
+    height: 10vh;
+    background-color: var(--elven);
+    text-align: center;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+a{
+    margin: 5px;
+    padding: 10px;
+}
+i{
+    font-size: 20px;
+}
