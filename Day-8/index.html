@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+
+        }
+
+        header>h1 {
+            text-transform: uppercase;
+            font-style: italic;
+            font-weight: 100;
+        }
+
+        nav {
+            display: flex;
+            column-gap: 40px;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: black;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(48, 48, 199);
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            border: 1px solid orange;
+
+        }
+
+        /* .right-container {
+            width: 50%;
+            border: 1px solid red;
+        } */
+
+        .right-container,
+        .left-container {
+            width: 50%;
+            border: 1px solid green;
+            margin-top: 50px;
+            padding: 30px;
+        }
+
+        .left-container>h1 {
+            /* font-size: 60px;
+            margin: 40px; */
+            border: 1px solid;
+        }
+
+        .left-container>p {
+            border: 1px solid black;
+            /* margin: 30px 60px;
+            padding: 30px;
+            text-indent: 1rem; */
+        }
+
+        img {
+            width: 100%;
+            border: 1px solid lightcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Your Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Work</a>
+            <a href="#">Info</a>
+            <button>Get Started</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="left-container">
+            <h1>WebSite Design</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero aut fuga, beatae possimus asperiores
+                explicabo excepturi debitis culpa unde corrupti, dolorem quam distinctio voluptatum repellat deleniti
+                voluptatibus non quas expedita!</p>
+            <button>Button Name</button>
+        </div>
+        <div class="right-container">
+            <img src="https://10000coders.in/_next/image?url=%2Fhero_sections_images%2Fhero_section_img.png&w=1920&q=100"
+                alt="">
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
