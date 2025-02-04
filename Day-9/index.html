@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, Serif;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+
+        }
+
+        .container-wrap {
+            margin: 50px 100px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .about-left,
+        .about-right {
+            flex-basis: 50%;
+            padding: 2%;
+        }
+
+        .about-right p {
+            color: rgb(140, 141, 141);
+        }
+
+        h3 {
+            color: rgb(53, 82, 92);
+        }
+
+        .form {
+            margin-top: 100px;
+        }
+
+        input {
+            width: 100%;
+            margin: 8px 0;
+            padding: 15px;
+            border: none;
+            border-bottom: 1px solid grey;
+
+        }
+
+        button {
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #d2c3c3;
+        }
+
+        footer {
+            height: 18vh;
+            background-color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            height: 10vh;
+            box-shadow: 2px 4px 2px 2px #c2c2c3;
+            padding: 10px 0;
+            background-color: #ffff;
+
+        }
+
+        nav a {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        nav a:hover {
+            cursor: pointer;
+            background: gainsboro;
+        }
+
+        .image-wrap {
+            width: 100%;
+            background: url('https://www.w3schools.com/w3images/hamburger.jpg');
+            height: 600px;
+            position: relative;
+            z-index: -1;
+        }
+
+        .catering {
+            margin: 0;
+            font-size: 30px;
+            padding: 30px;
+            letter-spacing: 5px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Gourmet au Catering</a>
+        </nav>
+        <nav class="nav-right">
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="image-wrap">
+        <p class="catering"> Le Catering</p>
+    </div>
+
+    <div class="container-wrap">
+
+        <div class="container">
+            <div class="about-left">
+                <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="">
+            </div>
+            <div class="about-right">
+                <h1>About Catering</h1>
+                <br>
+                <h5>Tradition since 1889</h5>
+                <p style="color: black;">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+                    consectetur
+                    adipiscing
+                    elit
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut
+                    enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    Duis
+                    aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.We
+                    only
+                    use seasonal ingredients.</p>
+                <br>
+                <p>
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                    id
+                    est
+                    laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna
+                    aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+
+            </div>
+
+        </div>
+        <hr>
+
+
+        <div class="container">
+
+            <div class="about-right">
+                <h1>Our Menu</h1>
+                <br>
+                <h5>Bread Basket</h5>
+                <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <br>
+
+                <h5>Honey Almond Granola with Fruits
+                </h5>
+                <p>
+                    Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+                </p>
+                <br>
+                <h5>Blueberry Pancakes
+
+                </h5>
+                <p>
+                    With syrup, butter and lots of berries 8.50
+                </p>
+                <br>
+                <h5>Belgian Waffle
+
+                </h5>
+                <p>
+                    Vanilla flavored batter with malted flour 7.50
+                </p>
+                <br>
+                <h5>Scrambled eggs
+
+                </h5>
+                <p>
+                    Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+                </p>
+
+            </div>
+
+            <div class="about-left">
+                <img src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="">
+            </div>
+        </div>
+        <hr>
+
+
+
+
+
+
+        <div class="form">
+            <h1>Contact</h1>
+            <br>
+            <p>We offer full-service catering for any event, large or small. We understand your needs and we will
+                cater
+                the
+                food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact
+                us.
+            </p>
+            <h3>Catering Service, 42nd Living St, 43043 New York, NY</h3>
+            <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a
+                message
+                here:</p>
+
+            <form action="#">
+                <input type="text" placeholder="Name" required id="name" name="name">
+
+                <input type="number" placeholder="How many people" required id="noOf" name="people">
+
+                <input type="datetime-local" required id="name" name="date">
+
+                <input type="text" placeholder="Message/special requirements" required id="message" name="message">
+
+                <button>SEND MESSAGE</button>
+            </form>
+
+        </div>
+
+
+
+    </div>
+    <footer>
+        <p>Developed by vineeth kumar</p>
+    </footer>
+
+</body>
+
+</html>
