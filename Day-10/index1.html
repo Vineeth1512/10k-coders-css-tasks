@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6ba86c8e2a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .click-pages {
+            text-align: center;
+            padding: 20px;
+            margin: 5%;
+        }
+
+        a {
+            margin: 0 2px;
+            padding: 10px 20px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .page-active {
+            background-color: black;
+            color: #fff;
+        }
+
+        .click-pages a:hover {
+            background-color: black;
+            color: #fff;
+
+        }
+
+        button:hover {
+            background-color: black;
+            color: #fff;
+        }
+
+        .click-pages div {
+            display: inline;
+            margin: 2px;
+            padding: 10px 0px;
+        }
+
+        .about-img {
+            margin: 3% 15%;
+        }
+
+        .about-img img {
+            width: 100%;
+        }
+
+        .about-wrap {
+            margin: 5% 0;
+            text-align: center;
+        }
+
+        .foot-section {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            gap: 10px;
+        }
+
+        .upper {
+            text-transform: uppercase;
+        }
+
+        .foot-child {
+            padding: 20px;
+            gap: 10px;
+        }
+
+
+        .middle-child {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+
+        }
+
+        .mid-left {
+            display: grid;
+            grid-template-rows: repeat(2, auto);
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            list-style-type: none;
+            margin: 20px 40px;
+            padding-left: 0;
+        }
+
+        .mid-wrap-img {
+            width: 50px;
+        }
+
+        .w3-left {
+            float: left !important;
+        }
+
+
+
+
+        .mid-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+            padding: 10px;
+
+        }
+
+        .mid-wrap:hover {
+            background-color: rgb(160, 174, 188);
+        }
+
+        .midwrap-child p {
+            margin: 2px;
+        }
+
+        .midwrap-child {
+            padding: 0px 10px;
+            text-align: left;
+        }
+
+        button {
+            border: none;
+            padding: 5px 15px;
+            margin: 2px;
+            font-size: 12px;
+            background-color: rgb(112, 113, 114);
+            color: #fff;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="head"><i class="fa-solid fa-bars"></i></div>
+        <div class="head">My Food</div>
+        <div class="head">Mail</div>
+    </header>
+
+    <div class="container-wrap">
+        <div class="container">
+
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+                <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/steak.jpg" alt="">
+                <h3>Let Me Tell You About This Steakc</h3>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum
+                </p>
+            </div>
+
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="">
+                <h3>Cherries, interrupted</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                </p>
+                <p> What else?</p>
+            </div>
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/wine.jpg" alt="">
+                <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="">
+                <h3>All I Need Is a Popsicle</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="">
+                <h3>Salmon For Your Skin</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+                <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="">
+                <h3>Le French</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+
+
+        </div>
+        <div class="click-pages">
+            <div>
+                <a href="#">
+                    << </a>
+            </div>
+            <div>
+                <a href="#" class="page-active"> 1</a>
+            </div>
+            <div>
+                <a href="#"> 2</a>
+            </div>
+            <div>
+                <a href="#"> 3</a>
+            </div>
+            <div>
+                <a href="#"> 4</a>
+            </div>
+            <div>
+                <a href="#"> >></a>
+            </div>
+
+
+            <!-- <a  href="#"> 2</a>
+            <a href="#"> 3</a>
+            <a href="#"> 4</a>
+            <a href="#"> >> </a> -->
+        </div>
+        <hr>
+        <div class="about-wrap">
+            <h2>About Me, The Food Man</h2>
+            <div class="about-img">
+                <img src="https://www.w3schools.com/w3images/chef.jpg" alt="">
+            </div>
+            <h3>I am Who I Am!</h3>
+            <p><i>With Passion For Real, Good Food</i></p>
+
+            <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of
+                lorem
+                ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut
+                rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue
+                gravida diam non fringilla.</p>
+        </div>
+        <hr>
+
+        <div class="foot-section">
+            <div class="foot-child">
+                <h3 class="upper">footer</h3>
+                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                    congue gravida diam non fringilla.</p>
+                <p>Developed by vineeth kumar</p>
+            </div>
+            <div class="foot-child">
+                <h3 class="upper">blog posts</h3>
+
+                <div class="mid-wrap">
+                    <div class="midwrap-child">
+                        <img class="w3-left mid-wrap-img" src="https://www.w3schools.com/w3images/workshop.jpg" alt="">
+                    </div>
+                    <div class="midwrap-child">
+                        <p>Lorem
+                        </p>
+                        <p>Sed mattis nunc</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="mid-wrap">
+                    <div class="midwrap-child">
+                        <img class="w3-left mid-wrap-img" src="https://www.w3schools.com/w3images/gondol.jpg" alt="">
+                    </div>
+                    <div class="midwrap-child">
+                        <p>Ipsum
+                        </p>
+                        <p> Praes tinci sed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-child">
+                <h3 class="upper">POPULAR TAGS</h3>
+
+                <button class="page-active">Travel </button>
+                <button>New York</button>
+                <button>Dinner</button>
+                <button>Salmon</button>
+                <button>France</button>
+
+                <button>Drinks</button>
+                <button>Ideas</button>
+                <button>Flavors</button>
+                <button>Cuisine</button>
+                <button>Chicken</button>
+                <button>Chicken</button>
+                <button>Dressing</button>
+                <button>Fried</button>
+                <button>Fish</button>
+                <button>Duck</button>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
