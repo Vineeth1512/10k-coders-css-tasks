@@ -10,15 +10,15 @@ h1{
    
 }
 .wrapper{
-    display: flex;
-  flex-wrap: wrap;
-  justify-content: fl;
-  gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4 ,auto);
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
 }
 .wrapper div {
     box-sizing: border-box;
     background-color: aliceblue;
-    
     padding: 10px;
     box-shadow: 0px 4px 8px #c7c2c1;
     text-align: center;
