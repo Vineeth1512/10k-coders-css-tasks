@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(6, auto);
+            gap: 10px;
+
+            grid-template-areas:
+
+                "child1 child1 child1 child1 child1 child1 "
+
+                "child2 child2 child2 child3 child3 child3 "
+
+                "child4 child4 child5 child5 child6 child6 "
+
+                "child7 child8 child9 child10 child11 child12"
+            ;
+        }
+
+        .container>div {
+            padding: 20px;
+            background-color: cadetblue;
+        }
+
+        .child1 {
+            grid-area: child1;
+        }
+
+        .child2 {
+            grid-area: child2;
+        }
+
+        .child3 {
+            grid-area: child3;
+        }
+
+        .child4 {
+            grid-area: child4;
+        }
+
+        .child5 {
+            grid-area: child5;
+        }
+
+        .child6 {
+            grid-area: child6;
+        }
+
+        .child7 {
+            grid-area: child7;
+        }
+
+        .child8 {
+            grid-area: child8;
+        }
+
+        .child9 {
+            grid-area: child9;
+        }
+
+        .child10 {
+            grid-area: child10;
+        }
+
+        .child11 {
+            grid-area: child11;
+        }
+
+        .child12 {
+            grid-area: child12;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="child1">1</div>
+        <div class="child2">2</div>
+        <div class="child3">3</div>
+
+        <div class="child4">4</div>
+        <div class="child5">5</div>
+        <div class="child6">6</div>
+        <div class="child7">7</div>
+        <div class="child8">8</div>
+
+
+        <div class="child9">9</div>
+        <div class="child10">10</div>
+        <div class="child11">11</div>
+        <div class="child12">12</div>
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-11</title>
+
+    <style>
+        .container {
+            margin: auto;
+            width: 25%;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(3, auto);
+            grid-template-areas:
+                "child1 child1 child1"
+                "child2 child2 child2"
+                "child3 child3 child4"
+                "child5 child5 child4"
+                "child6 child6 child6"
+
+        }
+
+        .container>div {
+
+            padding: 30px;
+        }
+
+        .child1 {
+            grid-area: child1;
+            background-color: #ddeb9d;
+        }
+
+        .child2 {
+            grid-area: child2;
+            background-color: #eae2c6;
+        }
+
+        .child3 {
+            grid-area: child3;
+            background-color: #ffcdb2;
+        }
+
+        .child4 {
+            grid-area: child4;
+            background-color: #a6f1e0;
+        }
+
+        .child5 {
+            grid-area: child5;
+            background-color: #f4f8d3;
+        }
+
+        .child6 {
+            grid-area: child6;
+            background-color: #ffefc8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="child1">header</div>
+        <div class="child2">nav</div>
+        <div class="child3">section</div>
+        <div class="child4">aside</div>
+        <div class="child5">article</div>
+        <div class="child6">footer</div>
+    </div>
+
+</body>
+
+</html>

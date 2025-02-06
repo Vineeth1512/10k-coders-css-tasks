@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-11</title>
+
+    <style>
+        .container {
+
+
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(3, auto);
+
+            grid-template-areas:
+                "child1 child2 child2"
+                "child1 child3 child4"
+                "child1 child3 child4"
+                "child1 child3 child5"
+                "child1 child3 child5"
+                "child1 child6 child6"
+                " child7 child7 child7"
+
+
+
+            ;
+
+
+
+        }
+
+        .container>div {
+
+            padding: 30px;
+        }
+
+        .child1 {
+            grid-area: child1;
+            background-color: #ddeb9d;
+        }
+
+        .child2 {
+            grid-area: child2;
+            background-color: #eae2c6;
+        }
+
+        .child3 {
+            grid-area: child3;
+            background-color: #ffcdb2;
+        }
+
+        .child4 {
+            grid-area: child4;
+            background-color: #a6f1e0;
+        }
+
+        .child5 {
+            grid-area: child5;
+            background-color: #f4f8d3;
+        }
+
+        .child6 {
+            grid-area: child6;
+            background-color: #ffefc8;
+        }
+
+        .child7 {
+            grid-area: child7;
+            background-color: #abf764;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="child1">1</div>
+        <div class="child2">2</div>
+        <div class="child3">3</div>
+        <div class="child4">4</div>
+        <div class="child5">5</div>
+
+
+        <div class="child6">6</div>
+
+        <div class="child7">7</div>
+
+
+    </div>
+
+</body>
+
+</html>
