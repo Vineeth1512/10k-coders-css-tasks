@@ -7,139 +7,30 @@
     <title>Document</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Georgia, Serif;
-            margin: 0;
-        }
-
-        .container {
-            display: flex;
-
-        }
-
-        .container-wrap {
-            margin: 50px 100px;
-        }
-
-        img {
-            width: 100%;
-        }
-
-        .about-left,
-        .about-right {
-            flex-basis: 50%;
-            padding: 2%;
-        }
-
-        .about-right p {
-            color: rgb(140, 141, 141);
-        }
-
-        h3 {
-            color: rgb(53, 82, 92);
-        }
-
-        .form {
-            margin-top: 100px;
-        }
-
-        input {
-            width: 100%;
-            margin: 8px 0;
-            padding: 15px;
-            border: none;
-            border-bottom: 1px solid grey;
-
-        }
-
-        button {
-            margin: 10px 0;
-            padding: 10px;
-            border: none;
-        }
-
-        button:hover {
-            background-color: #d2c3c3;
-        }
-
-        footer {
-            height: 18vh;
-            background-color: #f1f1f1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            height: 10vh;
-            box-shadow: 2px 4px 2px 2px #c2c2c3;
-            padding: 10px 0;
-            background-color: #ffff;
-
-        }
-
-        nav a {
-            padding: 10px;
-            text-decoration: none;
-            color: black;
-        }
-
-        nav a:hover {
-            cursor: pointer;
-            background: gainsboro;
-        }
-
-        .image-wrap {
-            width: 100%;
-            background: url('https://www.w3schools.com/w3images/hamburger.jpg');
-            height: 600px;
-            position: relative;
-            z-index: -1;
-        }
-
-        .catering {
-            margin: 0;
-            font-size: 30px;
-            padding: 30px;
-            letter-spacing: 5px;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: "Playfair Display";
-            letter-spacing: 5px;
+        .nav {
+            display: none;
         }
     </style>
-
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6ba86c8e2a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <header>
-        <nav>
-            <a href="#">Gourmet au Catering</a>
-        </nav>
-        <nav class="nav-right">
-            <a href="#">About</a>
-            <a href="#">Menu</a>
-            <a href="#">Contact</a>
-        </nav>
+        <div class="header">
+            <nav>
+                <a href="#">Gourmet au Catering</a>
+            </nav>
+            <nav class="nav-right">
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+        <div class="nav">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
 
     <div class="image-wrap">
