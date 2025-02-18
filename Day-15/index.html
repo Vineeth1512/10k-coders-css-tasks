@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-15</title>
+    <style>
+        .container {
+            width: 600px;
+
+            margin: auto;
+            background-color: aqua;
+            border: 1px solid red;
+        }
+
+        .btn-wrap {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        img {
+            margin: auto;
+
+
+        }
+
+        button {
+            margin: auto;
+            margin: 20px;
+            padding: 5px;
+            border: none;
+            background-color: black;
+            color: white;
+
+        }
+
+        #translate,
+        img,
+        #rotate,
+        #scale {
+            transition: all 2s linear 0s;
+        }
+
+
+
+        #translate:hover~img {
+            transform: translate(200px);
+        }
+
+        #rotate:hover~img {
+            transform: rotate(90deg);
+        }
+
+        #scale:hover~img {
+            transform: scale(1.5);
+        }
+
+        #skew:hover~img {
+            transform: skew(-20deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="btn-wrap">
+            <button id="translate">Translate</button>
+            <button id="rotate">Rotate</button>
+            <button id="scale">Scale</button>
+            <button id="skew">Skew</button>
+
+            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="" width="200px" height="200px">
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: auto;
+            width: 400px;
+            height: 90vh;
+            border: 1px solid red;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+
+        }
+
+        .child {
+            margin: 0 5px 0;
+            width: 100px;
+            border: 1px solid green;
+            padding: 20px;
+            height: 20vh;
+            background-color: aquamarine;
+
+        }
+
+        #child-1 {
+            animation-name: moveUp;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+
+        }
+
+        @keyframes moveUp {
+            from {
+                height: 100vh;
+            }
+
+            top {
+                height: 50vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="child-1" class="child">1</div>
+        <div id="child-2" class="child">2</div>
+        <div id="child-3" class="child">3</div>
+        <div id="child-4" class="child">4</div>
+        <div id="child-5" class="child">5</div>
+        <div id="child-6" class="child">6</div>
+
+    </div>
+
+</body>
+
+</html>
